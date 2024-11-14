@@ -1,7 +1,16 @@
-• A simple text filtering tool written in C++
+# Text Filtering Tool
 
-• 1st step: Enter any text you want
+A C++ program that removes a specified string from a given text, with options for case-sensitive or case-insensitive removal.
 
-• 2nd step: Enter anything you want to delete from this text either a single character or a sequence of characters
+## How it works
+1. Enter the text to process.  
+2. Enter the string to remove.  
+3. Choose case-sensitivity for removal.  
+4. View the modified text after removal.
 
-• The tool checks for the text to be filtered and deletes it from the text wherever it appears
+## Features
+- Case-sensitive or case-insensitive removal  
+- Easy to use with space handling
+
+## Requirements
+Standard C++ libraries (`<iostream>`, `<string>`, `<algorithm>`).
